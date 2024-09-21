@@ -143,7 +143,7 @@ class _GroceryListState extends State<GroceryList> {
     if (_error != null) {
       content = Center(child: Text(_error!));
     }
-
+    // Return the main Scaffold widget with AppBar and the content.
     return Scaffold(
       appBar: AppBar(
         title: const Text('Your Groceries'),
