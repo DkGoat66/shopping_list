@@ -89,7 +89,7 @@ class _GroceryListState extends State<GroceryList> {
       _groceryItems.add(newItem);
     });
   }
-
+  // Function to remove an item from the list.
   void _removeItem(GroceryItem item) async {
     final index = _groceryItems.indexOf(item);
     setState(() {
