@@ -73,7 +73,7 @@ class _GroceryListState extends State<GroceryList> {
       });
     }
   }
-
+// Function to add a new item to the list.
   void _addItem() async {
     final newItem = await Navigator.of(context).push<GroceryItem>(
       MaterialPageRoute(
