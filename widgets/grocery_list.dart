@@ -62,6 +62,7 @@ class _GroceryListState extends State<GroceryList> {
           ),
         );
       }
+      // Update the state with the loaded items and stop the loading indicator.
       setState(() {
         _groceryItems = loadedItems;
         _isLoading = false;
