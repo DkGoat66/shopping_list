@@ -15,14 +15,14 @@ class NewItem extends StatefulWidget {
     return _NewItemState();
   }
 }
-
+// State class for 'NewItem' widget.
 class _NewItemState extends State<NewItem> {
   final _formKey = GlobalKey<FormState>();
   var _enteredName = '';
   var _enteredQuantity = 1;
   var _selectedCategory = categories[Categories.vegetables]!;
   var _isSending = false;
-
+  // Function to handle saving the new item.
   void _saveItem() async {
     if (_formKey.currentState!.validate()) {
       _formKey.currentState!.save();
