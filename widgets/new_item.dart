@@ -51,7 +51,7 @@ class _NewItemState extends State<NewItem> {
       if (!context.mounted) {
         return;
       }
-
+      // Navigate back to the previous screen, passing the newly created GroceryItem object.
       Navigator.of(context).pop(
         GroceryItem(
           id: resData['name'],
