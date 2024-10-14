@@ -26,7 +26,7 @@ class _GroceryListState extends State<GroceryList> {
     //Load grocery items when the widget is initialized
     _loadItems();
   }
-
+// Function to load items from the server
   void _loadItems() async {
     final url = Uri.https(
        'shoppinglist-2e60e-default-rtdb.firebaseio.com', 'shopping-list.json');
