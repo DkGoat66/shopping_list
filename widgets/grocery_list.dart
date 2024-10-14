@@ -7,7 +7,7 @@ import 'package:shopping_list/data/categories.dart';
 
 import 'package:shopping_list/models/grocery_item.dart';
 import 'package:shopping_list/widgets/new_item.dart';
-
+// Stateful widget for the Grocery List
 class GroceryList extends StatefulWidget {
   const GroceryList({super.key});
 
