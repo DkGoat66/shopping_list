@@ -32,6 +32,7 @@ class _GroceryListState extends State<GroceryList> {
        'shoppinglist-2e60e-default-rtdb.firebaseio.com', 'shopping-list.json');
 
     try {
+      // Make a Get request to fetch the grocery items 
       final response = await http.get(url);
 
       if (response.statusCode >= 400) {
