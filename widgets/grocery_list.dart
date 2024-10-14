@@ -34,7 +34,7 @@ class _GroceryListState extends State<GroceryList> {
     try {
       // Make a Get request to fetch the grocery items 
       final response = await http.get(url);
-
+  // Check for a server error response
       if (response.statusCode >= 400) {
         setState(() {
           _error = 'Failed to fetch data. Please try again later.';
