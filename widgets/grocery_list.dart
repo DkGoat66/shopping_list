@@ -23,6 +23,7 @@ class _GroceryListState extends State<GroceryList> {
   @override
   void initState() {
     super.initState();
+    //Load grocery items when the widget is initialized
     _loadItems();
   }
 
