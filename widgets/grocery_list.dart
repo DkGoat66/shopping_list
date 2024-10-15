@@ -47,6 +47,7 @@ class _GroceryListState extends State<GroceryList> {
         });
         return;
       }
+      // Decode the response body (JSON) into a MAP 
       final Map<String, dynamic> listData = json.decode(response.body);
       final List<GroceryItem> loadedItems = [];
       for (final item in listData.entries) {
