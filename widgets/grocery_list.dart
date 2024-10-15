@@ -1,4 +1,4 @@
-import 'dart:convert';
+import 'dart:convert'; // Used for converting JSON data
 
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
