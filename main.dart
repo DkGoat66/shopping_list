@@ -4,7 +4,7 @@ import 'package:shopping_list/widgets/grocery_list.dart';
 void main() {
   runApp(const MyApp());
 }
-
+// This is the main application widget,
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
