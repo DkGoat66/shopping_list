@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:shopping_list/widgets/grocery_list.dart';
-
+// The entry point of the flutter application 
 void main() {
   runApp(const MyApp());
 }
