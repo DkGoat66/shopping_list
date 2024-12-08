@@ -1,11 +1,8 @@
 //import necessary packages for the program
 import 'dart:convert'; // Used for converting JSON data
-
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 import 'package:shopping_list/data/categories.dart';
-
-
 import 'package:shopping_list/models/grocery_item.dart';
 import 'package:shopping_list/widgets/new_item.dart';
 // Stateful widget for the Grocery List
