@@ -23,6 +23,7 @@ class _NewItemState extends State<NewItem> {
   var _isSending = false;
   // Function to handle saving the new item.
   void _saveItem() async {
+    //validate the form input befofre proceeding 
     if (_formKey.currentState!.validate()) {
       _formKey.currentState!.save();
       setState(() {
