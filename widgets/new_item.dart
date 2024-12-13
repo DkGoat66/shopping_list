@@ -163,6 +163,7 @@ class _NewItemState extends State<NewItem> {
                           },
                     child: const Text('Reset'),
                   ),
+                  // Button to save the new Item
                   ElevatedButton(
                     onPressed: _isSending ? null : _saveItem,
                     child: _isSending
