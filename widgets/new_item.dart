@@ -120,6 +120,7 @@ class _NewItemState extends State<NewItem> {
                       },
                     ),
                   ),
+                  //Sizedbox
                   const SizedBox(width: 8),
                   Expanded(
                     // Dropdown for selecting a category
