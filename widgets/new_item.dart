@@ -127,6 +127,7 @@ class _NewItemState extends State<NewItem> {
                     child: DropdownButtonFormField(
                       value: _selectedCategory,
                       items: [
+                        // Create dropdown menu items for each category
                         for (final category in categories.entries)
                           DropdownMenuItem(
                             value: category.value,
