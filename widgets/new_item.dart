@@ -145,6 +145,7 @@ class _NewItemState extends State<NewItem> {
                           ),
                       ],
                       onChanged: (value) {
+                        //update the selected category when changed
                         setState(() {
                           _selectedCategory = value!;
                         });
