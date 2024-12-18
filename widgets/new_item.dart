@@ -158,6 +158,7 @@ class _NewItemState extends State<NewItem> {
               Row(
                 mainAxisAlignment: MainAxisAlignment.end,
                 children: [
+                  //Button to reset the form fields
                   TextButton(
                     onPressed: _isSending
                         ? null
