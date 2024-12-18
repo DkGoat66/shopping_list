@@ -154,7 +154,7 @@ class _NewItemState extends State<NewItem> {
                   ),
                 ],
               ),
-              const SizedBox(height: 12),
+              const SizedBox(height: 12),// add spacing before buttons 
               Row(
                 mainAxisAlignment: MainAxisAlignment.end,
                 children: [
