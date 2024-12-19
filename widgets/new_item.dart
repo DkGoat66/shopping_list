@@ -121,7 +121,7 @@ class _NewItemState extends State<NewItem> {
                     ),
                   ),
                   //Sizedbox
-                  const SizedBox(width: 8),
+                  const SizedBox(width: 8),// Add spacing between fields
                   Expanded(
                     // Dropdown for selecting a category
                     child: DropdownButtonFormField(
