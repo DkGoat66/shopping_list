@@ -117,7 +117,7 @@ class _GroceryListState extends State<GroceryList> {
     if (_isLoading) {
       content = const Center(child: CircularProgressIndicator());
     }
-
+  // Show a list of grocery items if they are available
     if (_groceryItems.isNotEmpty) {
       content = ListView.builder(
         itemCount: _groceryItems.length,
