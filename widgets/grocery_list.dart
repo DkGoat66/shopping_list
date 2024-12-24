@@ -111,6 +111,7 @@ class _GroceryListState extends State<GroceryList> {
 
   @override
   Widget build(BuildContext context) {
+    //Default content to display when no items are available
     Widget content = const Center(child: Text('No items added yet.'));
 
     if (_isLoading) {
