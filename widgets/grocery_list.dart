@@ -155,6 +155,7 @@ class _GroceryListState extends State<GroceryList> {
           ),
         ],
       ),
+      // Display the main content
       body: content,
     );
   }
