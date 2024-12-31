@@ -140,7 +140,7 @@ class _GroceryListState extends State<GroceryList> {
         ),
       );
     }
-
+//show an error message if an error occurred
     if (_error != null) {
       content = Center(child: Text(_error!));
     }
