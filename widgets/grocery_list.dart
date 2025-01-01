@@ -68,6 +68,7 @@ class _GroceryListState extends State<GroceryList> {
         _isLoading = false;
       });
     } catch (error) {
+      //handle any errors during the API call
       setState(() {
         _error = 'Something went wrong! Please try again later.';
       });
