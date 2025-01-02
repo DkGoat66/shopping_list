@@ -151,6 +151,7 @@ class _GroceryListState extends State<GroceryList> {
       appBar: AppBar(
         //Title for the app bar
         title: const Text('Your Groceries'),
+        // Action button to add a new item
         actions: [
           IconButton(
             onPressed: _addItem,
