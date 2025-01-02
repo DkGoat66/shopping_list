@@ -149,6 +149,7 @@ class _GroceryListState extends State<GroceryList> {
     // Return the main Scaffold widget with AppBar and the content.
     return Scaffold(
       appBar: AppBar(
+        //Title for the app bar
         title: const Text('Your Groceries'),
         actions: [
           IconButton(
